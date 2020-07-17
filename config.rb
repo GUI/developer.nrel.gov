@@ -83,6 +83,7 @@ configure :build do
   ]
 end
 
+puts "DOCS_API_KEY: #{ENV["DOCS_API_KEY"].inspect}"
 ENV["DOCS_API_KEY"] ||= "Rr247zstse9kbndOttzlhKIKnS04mW7UUXIplAqd"
 
 activate :alias
